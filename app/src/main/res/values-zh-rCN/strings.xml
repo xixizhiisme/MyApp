@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My App</string>
+    <string name="hello">你好</string>
+    <string name="date">请输入数据</string>
+    <string name="celsius">请输入摄氏度</string>
+    <string name="fahrenheit">转换为华氏温度</string>
+    <string name="result">结果为：</string>
+    <string name="teamName_A">A队</string>
+    <string name="teamName_B">B队</string>
+    <string name="score">0</string>
+    <string name="add_score3">+3 分</string>
+    <string name="add_score2">+2 分</string>
+    <string name="add_score1">+1 分</string>
+    <string name="reset">重置</string>
+    <string name="rate_dollar">美元</string>
+    <string name="rate_euro">欧元</string>
+    <string name="rate_won">韩元</string>
+    <string name="rmb_hint">请输入人民币金额</string>
+    <string name="btn_save_label">保存</string>
+    <string name="menu_set_label">设置</string>
+    <string name="btn_config">config</string>
+</resources>

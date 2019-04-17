@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="hello">Hello</string>
+    <string name="date">Please import date</string>
+    <string name="celsius">Please enter Celsius</string>
+    <string name="fahrenheit">Convert to Fahrenheit</string>
+    <string name="result">The result:</string>
+    <string name="teamName_A">teamA</string>
+    <string name="teamName_B">teamB</string>
+    <string name="score">0</string>
+    <string name="add_score3">+3 POINTS</string>
+    <string name="add_score2">+2 POINTS</string>
+    <string name="add_score1">+1 POINT</string>
+    <string name="reset">RESET</string>
+    <string name="rate_dollar">DOLLAR</string>
+    <string name="rate_euro">EURO</string>
+    <string name="rate_won">WON</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_save_label">Save</string>
+    <string name="menu_set_label">Setting</string>
+    <string name="btn_config">config</string>
+</resources>

@@ -19,6 +19,24 @@ public class ScoreActivity extends Activity {
         score_B = (TextView) findViewById(R.id.score_B);
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        String scorea=score_A.getText().toString();
+        String scoreb=score_B.getText().toString();
+        outState.putString("score_A",scorea);
+        outState.putString("score_B",scoreb);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        String scorea=savedInstanceState.getString("score_A");
+        String scoreb=savedInstanceState.getString("score_B");
+        score_A.setText(scorea);
+        score_B.setText(scoreb);
+    }
+
     public void btnAdd1(View btn){
         if(btn.getId()==R.id.btn_score_1_A){
             showScore_A(1);

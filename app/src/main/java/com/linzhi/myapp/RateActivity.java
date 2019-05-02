@@ -160,12 +160,7 @@ public class RateActivity extends Activity implements Runnable{
         }
         //用于保存获取的汇率
         Bundle bundle=new Bundle();
-        //获取msg对象，用于返回主线程
-        Message msg=handler.obtainMessage(5);
-        //msg.what=5;
-        //msg.obj="Hello from run()";
-        msg.obj=bundle;
-        handler.sendMessage(msg);
+
         //获取网络数据
         /*URL url= null;
         try {
@@ -218,7 +213,13 @@ public class RateActivity extends Activity implements Runnable{
             }*/
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }//获取msg对象，用于返回主线程
+        Message msg=handler.obtainMessage(5);
+        //msg.what=5;
+        //msg.obj="Hello from run()";
+        msg.obj=bundle;
+        handler.sendMessage(msg);
+
         //bundle中保存获取的汇率
     }
     private String inputStream2String(InputStream inputStream) throws IOException {

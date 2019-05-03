@@ -20,4 +20,5 @@
     <string name="btn_save_label">保存</string>
     <string name="menu_set_label">设置</string>
     <string name="btn_config">config</string>
+    <string name="menu_set_openList">打开列表</string>
 </resources>

@@ -146,8 +146,11 @@ public class RateActivity extends Activity implements Runnable{
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId()==R.id.menu_set){
             openConfig();
-        }else if(item.getItemId()==R.id.menu_openList){
+        }else if(item.getItemId()==R.id.menu_openList1){
             Intent list=new Intent(this,RateListActivity.class);
+            startActivity(list);
+        }else {
+            Intent list=new Intent(this,MyList2Activity.class);
             startActivity(list);
         }
         return super.onOptionsItemSelected(item);

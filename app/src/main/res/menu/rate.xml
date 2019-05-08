@@ -8,8 +8,12 @@
         android:title="@string/menu_set_label"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_openList"
+        android:id="@+id/menu_openList1"
         android:icon="@mipmap/settings"
         android:title="@string/menu_set_openList"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_openList2"
+        android:title="@string/myList"
         app:showAsAction="never" />
 </menu>

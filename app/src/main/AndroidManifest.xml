@@ -48,7 +48,7 @@
         <activity android:name=".RateListActivity" />
         <activity android:name=".MyListActivity" />
         <activity android:name=".MyList2Activity" />
-        <activity android:name=".RateCalActivity"></activity>
+        <activity android:name=".RateCalActivity" android:theme="@style/Base.Theme.AppCompat.Dialog"></activity>
     </application>
 
 </manifest>

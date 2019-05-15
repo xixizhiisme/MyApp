@@ -149,6 +149,9 @@ public class RateActivity extends Activity implements Runnable{
         }else if(item.getItemId()==R.id.menu_openList1){
             Intent list=new Intent(this,RateListActivity.class);
             startActivity(list);
+        }else if(item.getItemId()==R.id.menu_openMyList1){
+            Intent list=new Intent(this,MyListActivity.class);
+            startActivity(list);
         }else {
             Intent list=new Intent(this,MyList2Activity.class);
             startActivity(list);

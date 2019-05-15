@@ -20,5 +20,6 @@
     <string name="menu_set_label">Setting</string>
     <string name="btn_config">config</string>
     <string name="menu_set_openList">openList</string>
-    <string name="myList">myList</string>
+    <string name="myList1">myList1</string>
+    <string name="myList2">myList2</string>
 </resources>

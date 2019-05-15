@@ -13,7 +13,11 @@
         android:title="@string/menu_set_openList"
         app:showAsAction="never" />
     <item
-        android:id="@+id/menu_openList2"
-        android:title="@string/myList"
+        android:id="@+id/menu_openMyList1"
+        android:title="@string/myList1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_openMyList2"
+        android:title="@string/myList2"
         app:showAsAction="never" />
 </menu>

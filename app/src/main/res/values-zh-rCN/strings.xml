@@ -21,5 +21,6 @@
     <string name="menu_set_label">设置</string>
     <string name="btn_config">config</string>
     <string name="menu_set_openList">打开列表</string>
-    <string name="myList">myList</string>
+    <string name="myList1">我的列表1</string>
+    <string name="myList2">我的列表2</string>
 </resources>

@@ -155,6 +155,17 @@ public class RateActivity extends Activity implements Runnable{
         }else {
             Intent list=new Intent(this,MyList2Activity.class);
             startActivity(list);
+            //测试数据库
+            /*RateItem item1=new RateItem("aaaa","123");
+            RateManager manager=new RateManager(this);
+            manager.add(item1);
+            manager.add(new RateItem("bbbb","23.4"));
+            Log.i(TAG, "onOptionsItemSelected: 写入数据完毕");
+            //查询所有数据
+            List<RateItem> testList=manager.listAll();
+            for(RateItem i:testList){
+                Log.i(TAG, "onOptionsItemSelected: 取出数据[id="+i.getId()+"]Name="+i.getCurName()+"Rate="+i.getCurRate());
+            }*/
         }
         return super.onOptionsItemSelected(item);
     }

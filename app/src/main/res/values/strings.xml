@@ -22,4 +22,7 @@
     <string name="menu_set_openList">openList</string>
     <string name="myList1">myList1</string>
     <string name="myList2">myList2</string>
+    <string name="rdo_home_label">home</string>
+    <string name="rdo_func_label">function</string>
+    <string name="rdo_setting_label">setting</string>
 </resources>

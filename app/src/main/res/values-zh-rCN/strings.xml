@@ -23,4 +23,7 @@
     <string name="menu_set_openList">打开列表</string>
     <string name="myList1">我的列表1</string>
     <string name="myList2">我的列表2</string>
+    <string name="rdo_home_label">主页</string>
+    <string name="rdo_func_label">功能</string>
+    <string name="rdo_setting_label">设置</string>
 </resources>
